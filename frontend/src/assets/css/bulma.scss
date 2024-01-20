@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+$eerie_black: #1F1F1F;
+$tropical_indigo: #9191E9;
+$mullberry: #cc6498;
+$earth_yellow: #E4B363;
+$anti-flash_white: #EBEBEB;
+$white: #FFFFFF;
+
+$family-sans-serif: 'Roboto', sans-serif;
+
+$primary: $tropical_indigo;
+$dark: $eerie_black;
+$background: $anti-flash_white;
+$background-light: $anti-flash_white;
+$info: $mullberry;
+$warning: $earth_yellow;
+$card-radius: 3px;
+
+$footer-background-color: $anti-flash_white;
+
+@import 'bulma/bulma';
+@import 'bulma-calendar/src/sass/index';
+
+.arrow-mixin {
+  @include arrow($eerie_black);
+}
